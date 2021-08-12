@@ -58,7 +58,7 @@ footer {
 /*---------- TABLET ----------*/
 /* Change the background colors below */
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   header {
     background-color: peru;
   }
@@ -73,17 +73,23 @@ footer {
 
   #column-3 {
     background-color: lightskyblue;
+    width: 100%;
   }
 
   footer {
     background-color: mediumturquoise;
   }
   
+  .col-3 {
+    width: 50%;
+  }
 }
 
 
+
+
 /*---------- Desktops ----------*/
-@media (min-width: 1200px) {
+@media (min-width: 1201px) {
   header {
     background-color: saddlebrown;
   }
@@ -102,6 +108,10 @@ footer {
 
   footer {
     background-color: violet;
+  }
+
+  .col-3 {
+    width: 33.33%;
   }
    
 }
